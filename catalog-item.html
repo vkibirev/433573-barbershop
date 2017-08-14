@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Набор для путешествий "Baxter of California"</title>
+    <title>HTML Academy: Барбершоп</title>
   </head>
   <body>
     <header class="main-header">
@@ -11,35 +11,35 @@
           <img src="img/index-logo.svg" width="150" height="40" alt="Логотип барбершопа «Бородинский»">
         </a>
         <ul class="site-navigation">
-          <li><a href="#">Информация</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Прайс-Лист</a></li>
-          <li><a href="#">Магазин</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="price.html">Прайс-Лист</a></li>
+          <li><a href="store.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="site-login">
-          <li class="login-link"><a href="#"></a>Вход</li>
+          <li class="login-link"><a href="#">Вход</a></li>
         </ul>
       </nav>
     </header>
     <main class="container">
-      <h1>Набор для путешествий «Baxter of California»</h1>
+      <h1>Набор для путешествий "Baxter of California"</h1>
 
       <ul class="breadcrumps">
-        <li class="breadcrumps-item"><a href="#">Главная</a></li>
-        <li class="breadcrumps-item"><a href="#">Магазин</a></li>
-        <li class="breadcrumps-item"><a href="#">Средства для ухода</a></li>
-        <li class="breadcrumps-item breadcrumps-current">Набор для путешествий «Baxter of California»</li>
+        <li class="breadcrumps-item">Главная</li>
+        <li class="breadcrumps-item">Магазин</li>
+        <li class="breadcrumps-item">Средства для ухода</li>
+        <li class="breadcrumps-item breadcrumps-current">Набор для путешествий "Baxter of California"</li>
       </ul>
-      <section class="product-photos">
+      <section class="product-photoы">
         <h2 class="visually-hidden">Изображения товара</h2>
         <p class="big-product-photo">
-          <img src="http://placehold.it/450x500" width="450" height="500" alt="Большое фото продукта">
+          <img src="img/big-product-photo.jpg" width="450" height="500" alt="Большое фото продукта">
         </p>
         <ul class="small-product-photos">
-          <li><img src="http://placehold.it/120x150" width="120" height="150" alt="Фото анфас"></li>
-          <li><img src="http://placehold.it/120x150" width="120" height="150" alt="Фото профиль"></li>
-          <li><img src="http://placehold.it/120x150" width="120" height="150" alt="Фото собранного набора"></li>
+          <li><img src="img/small-product-photo1.jpg" width="120" height="150" alt="Фото анфас"></li>
+          <li><img src="img/small-product-photo2.jpg" width="120" height="150" alt="Фото профиль"></li>
+          <li><img src="img/small-product-photo3.jpg" width="120" height="150" alt="Фото собранного набора"></li>
         </ul>
       </section>
       <section class="product-info">
@@ -63,7 +63,7 @@
             <li>Удобная кожаная косметичка</li>
           </ul>
       </section>
-      <footer>
+      <footer class="main-footer">
           <p>
              Барбершоп «Бородинский»<br>
              Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -93,16 +93,13 @@
             <input class="login-icon-password" type="password" name="password" placeholder="Пароль">
           </p>
           <p class="login-password-info">
-            <label>
-              <input type="checkbox" name="remember" class="visually-hidden">
-              Запомните меня
-            </label>
+            <input type="checkbox" name="remember" class="visually-hidden">
+            Запомните меня
             <a class="restore" href="#">Я забыл пароль!</a>
           </p>
           <button class="button" type="submit">Войти</button>
         </form>
-        <span class="modal-close" aria-label="Закрыть">x</span>
-
+        <span class="modal-close">x</span>
       </section>
 
     </main>
