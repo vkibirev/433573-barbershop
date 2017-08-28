@@ -22,7 +22,12 @@ a {
   text-decoration: none;
 }
 
-.button {
+.main-header {
+  outline: 1px solid red;
+}
+
+.button,
+.news-button {
   font: inherit;
 
   text-align: center;
@@ -36,7 +41,10 @@ a {
 
 .button:hover,
 .button:focus,
-.button:active {
+.button:active,
+.news-button:hover,
+.news-button:focus,
+.news-button:active {
   background-color: #663d15;
 }
 
@@ -105,6 +113,10 @@ a {
 
 .news-item time {
   text-transform: lowercase;
+}
+
+.news-button {
+
 }
 
 .galerry-content {
